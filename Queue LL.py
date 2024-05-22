@@ -1,9 +1,3 @@
-'''FIFO[First In First Out]
-push() , pop() are methods used in queue
-at beginnig,end,specific position '''
-
-
-'''Linked list implementation of Queue'''
 
 class Box:
     def __init__(self, data):
@@ -53,7 +47,3 @@ printLinkedList(queueHead)
  
  
  
-# Empty Linked list
-# 34 --> 35 --> 36 --> 37 --> 
-# 35 --> 36 --> 37 --> 
-# 36 --> 37 --> 

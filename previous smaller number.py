@@ -10,7 +10,6 @@ def findPreviousSmallerElement(nums):
         stack.append(nums[index])
     return result
 
-nums=list(map(int,input().split()))
-# nums = [12, 10, 4, 15, 9, 200, 121, 154, 12]
+nums = [12, 10, 4, 15, 9, 200, 121, 154, 12]
 result = findPreviousSmallerElement(nums)
 print(result)
